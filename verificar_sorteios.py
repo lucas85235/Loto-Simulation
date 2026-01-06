@@ -18,14 +18,18 @@ CACHE_FILE = os.path.join(os.path.dirname(__file__), "lotofacil_cache.json")
 CUSTO_JOGO_15 = 3.50  # Custo de um jogo de 15 números
 
 
-# Valores médios típicos de prêmios da Lotofácil
+# Valores médios típicos de prêmios da Lotofácil (baseados em histórico real)
+# 11, 12, 13: valores fixos
+# 14: média ~R$ 1.400 (varia de R$ 500 a R$ 2.500 dependendo do concurso)
+# 15: média ~R$ 1.200.000 (varia muito, de R$ 300.000 rateado a R$ 2.000.000+ sozinho)
 PREMIOS_TIPICOS = {
-    11: 6.00,
-    12: 12.00,
-    13: 30.00,
-    14: 900.00,
-    15: 700000.00
+    11: 6.00,       # Fixo
+    12: 12.00,      # Fixo
+    13: 30.00,      # Fixo
+    14: 1400.00,    # Média histórica ~R$ 1.400
+    15: 1200000.00  # Média histórica ~R$ 1.200.000 (geralmente rateado)
 }
+
 
 
 @dataclass

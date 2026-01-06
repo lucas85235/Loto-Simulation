@@ -15,13 +15,15 @@ from datetime import datetime
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "lotofacil_cache.json")
 CUSTO_JOGO = 3.50
 
+# Valores médios típicos (baseados em histórico real)
 PREMIOS = {
-    11: 6.00,
-    12: 12.00,
-    13: 30.00,
-    14: 1800.00,
-    15: 2000000.00
+    11: 6.00,        # Fixo
+    12: 12.00,       # Fixo
+    13: 30.00,       # Fixo
+    14: 1400.00,     # Média histórica ~R$ 1.400
+    15: 1200000.00   # Média histórica ~R$ 1.200.000 (geralmente rateado)
 }
+
 
 
 @dataclass
