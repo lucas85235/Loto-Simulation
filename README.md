@@ -6,10 +6,15 @@ Scripts para gerar fechamentos da Lotofácil com garantia de 14 acertos e simula
 
 | Script | Descrição |
 |--------|-----------|
-| `fechamento_lotofacil.py` | Gera jogos com garantia de 14 acertos (greedy set cover) |
-| `fechamento_grasp.py` | Gera jogos usando algoritmo GRASP |
-| `verificar_sorteios.py` | Simula jogos contra sorteios reais e calcula ganhos |
+| `fechamento_lotofacil.py` | Gera jogos com garantia de 14 acertos |
+| `verificar_sorteios.py` | Simula jogos contra sorteios reais |
 | `analisar_lotofacil.py` | Análise estatística e sugestão de universos |
+| `buscar_universo_ideal.py` | Busca universo ideal via algoritmo genético |
+| `analise_risco.py` | **NOVO!** Métricas de risco (VaR, Sharpe, Drawdown) |
+| `backtest.py` | **NOVO!** Simulação realista de capital |
+| `comparar_universos.py` | **NOVO!** Ranking de múltiplos universos |
+| `executar.sh` | Automação completa do fluxo |
+
 
 ---
 

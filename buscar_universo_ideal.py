@@ -90,49 +90,139 @@ def encontrar_universo_perfeito(sorteios: List[Sorteio], tamanho_universo: int =
 
 def buscar_melhor_universo_genetico(sorteios: List[Sorteio], 
                                       tamanho_universo: int = 20,
-                                      populacao: int = 100,
-                                      geracoes: int = 500,
+                                      populacao: int = 200,
+                                      geracoes: int = 1000,
                                       alvo_acertos: int = 15) -> Tuple[Set[int], Dict]:
     """
-    Usa algoritmo genético para encontrar o melhor universo.
+    Algoritmo Genético Melhorado:
+    - Fitness multi-objetivo
+    - Mutação adaptativa
+    - Crossover uniforme
+    - Elitismo adaptativo
     """
     print(f"\n{'='*80}")
-    print(f"ALGORITMO GENÉTICO - Buscando universo com {alvo_acertos} acertos")
+    print(f"ALGORITMO GENÉTICO MELHORADO")
     print(f"{'='*80}")
     print(f"População: {populacao}, Gerações: {geracoes}")
     
     todos_numeros = list(range(1, 26))
     
-    def criar_individuo():
+    # Calcular frequência dos números para guiar mutação
+    freq = Counter()
+    for s in sorteios:
+        freq.update(s.dezenas)
+    numeros_frequentes = sorted(freq.keys(), key=lambda x: freq[x], reverse=True)
+    
+    def criar_individuo() -> Set[int]:
+        # 70% baseado em frequência, 30% aleatório
+        if random.random() < 0.7:
+            base = set(numeros_frequentes[:15])
+            extras = set(random.sample(numeros_frequentes[15:], 5))
+            return base | extras
         return set(random.sample(todos_numeros, tamanho_universo))
     
-    def avaliar(universo: Set[int]) -> Tuple[int, int, int]:
-        """Retorna (max_acertos, total_14+, total_acertos)"""
+    def avaliar(universo: Set[int]) -> Tuple[float, int, int, int]:
+        """
+        Fitness multi-objetivo:
+        - max_acertos: máximo de acertos em qualquer sorteio
+        - count_15: número de sorteios com 15 acertos
+        - count_14_plus: número de sorteios com 14+ acertos
+        - total_acertos: soma de todos os acertos
+        Retorna (fitness_score, max_ac, count_14_plus, total)
+        """
         max_ac = 0
+        count_15 = 0
         count_14_plus = 0
         total = 0
+        
         for s in sorteios:
             ac = len(universo & s.dezenas)
             max_ac = max(max_ac, ac)
-            if ac >= 14:
+            if ac == 15:
+                count_15 += 1
+                count_14_plus += 1
+            elif ac == 14:
                 count_14_plus += 1
             total += ac
-        return (max_ac, count_14_plus, total)
+        
+        # Fitness ponderado (prioriza 15, depois 14+, depois total)
+        fitness = count_15 * 100000 + count_14_plus * 1000 + max_ac * 100 + total
+        return (fitness, max_ac, count_14_plus, total)
     
-    def crossover(pai1: Set[int], pai2: Set[int]) -> Set[int]:
-        uniao = list(pai1 | pai2)
-        return set(random.sample(uniao, min(tamanho_universo, len(uniao))))
+    def crossover_uniforme(pai1: Set[int], pai2: Set[int]) -> Set[int]:
+        """Crossover uniforme: cada gene tem 50% de chance de vir de cada pai."""
+        unidos = list(pai1 | pai2)
+        filho = set()
+        
+        # Adiciona genes que estão em ambos os pais
+        comum = pai1 & pai2
+        filho.update(comum)
+        
+        # Para os demais, escolhe aleatoriamente
+        diferentes = list((pai1 | pai2) - comum)
+        random.shuffle(diferentes)
+        
+        while len(filho) < tamanho_universo and diferentes:
+            gene = diferentes.pop()
+            if gene in pai1 and gene in pai2:
+                filho.add(gene)
+            elif random.random() < 0.5:
+                filho.add(gene)
+            elif diferentes:
+                filho.add(diferentes.pop())
+        
+        # Completar se necessário
+        while len(filho) < tamanho_universo:
+            disponiveis = set(todos_numeros) - filho
+            if disponiveis:
+                filho.add(random.choice(list(disponiveis)))
+        
+        return filho
     
-    def mutacao(ind: Set[int], taxa: float = 0.1) -> Set[int]:
+    def mutacao_adaptativa(ind: Set[int], taxa_base: float, estagnacao: int) -> Set[int]:
+        """Mutação adaptativa: aumenta quando estagnado."""
+        # Taxa aumenta com estagnação (máximo 50%)
+        taxa = min(0.5, taxa_base * (1 + estagnacao * 0.1))
+        
         ind = set(ind)
-        for _ in range(int(tamanho_universo * taxa)):
-            if random.random() < 0.5 and len(ind) > 0:
-                # Remover um número
-                ind.discard(random.choice(list(ind)))
-            # Adicionar um número
-            disponiveis = set(todos_numeros) - ind
-            if disponiveis and len(ind) < tamanho_universo:
-                ind.add(random.choice(list(disponiveis)))
+        num_mutacoes = max(1, int(tamanho_universo * taxa))
+        
+        for _ in range(num_mutacoes):
+            # Remover um número (preferencialmente menos frequente)
+            if len(ind) > 0:
+                lista_ind = list(ind)
+                # Peso inversamente proporcional à frequência
+                pesos = [1.0 / (freq.get(n, 1) + 1) for n in lista_ind]
+                soma = sum(pesos)
+                pesos = [p/soma for p in pesos]
+                
+                # Escolha ponderada
+                r = random.random()
+                acum = 0
+                remover = lista_ind[0]
+                for n, p in zip(lista_ind, pesos):
+                    acum += p
+                    if r <= acum:
+                        remover = n
+                        break
+                ind.discard(remover)
+            
+            # Adicionar um número (preferencialmente mais frequente)
+            disponiveis = list(set(todos_numeros) - ind)
+            if disponiveis:
+                pesos = [freq.get(n, 1) for n in disponiveis]
+                soma = sum(pesos)
+                pesos = [p/soma for p in pesos]
+                
+                r = random.random()
+                acum = 0
+                adicionar = disponiveis[0]
+                for n, p in zip(disponiveis, pesos):
+                    acum += p
+                    if r <= acum:
+                        adicionar = n
+                        break
+                ind.add(adicionar)
         
         # Garantir tamanho correto
         while len(ind) < tamanho_universo:
@@ -147,13 +237,14 @@ def buscar_melhor_universo_genetico(sorteios: List[Sorteio],
     # Inicializar população
     pop = [criar_individuo() for _ in range(populacao)]
     
-    # Adicionar indivíduos baseados nos sorteios (elite inicial)
-    for s in sorteios[:10]:
+    # Adicionar indivíduos baseados nos sorteios (seeding)
+    for s in sorteios[:15]:
         extras = set(random.sample(list(set(range(1, 26)) - s.dezenas), 5))
         pop.append(s.dezenas | extras)
     
     melhor_global = None
-    melhor_score_global = (0, 0, 0)
+    melhor_score_global = (0, 0, 0, 0)
+    geracoes_sem_melhoria = 0
     
     for geracao in range(geracoes):
         # Avaliar
@@ -165,29 +256,43 @@ def buscar_melhor_universo_genetico(sorteios: List[Sorteio],
         if melhor_score > melhor_score_global:
             melhor_score_global = melhor_score
             melhor_global = melhor_ind
+            geracoes_sem_melhoria = 0
             
-            max_ac, count_14, total = melhor_score
-            print(f"Geração {geracao:3d}: Max={max_ac}, 14+={count_14}, Total={total}")
+            fitness, max_ac, count_14, total = melhor_score
+            print(f"Geração {geracao:3d}: Max={max_ac}, 14+={count_14}, Total={total}, Fitness={fitness:.0f}")
             
             if max_ac >= alvo_acertos:
                 print(f"\n🎯 ALVO ATINGIDO na geração {geracao}!")
                 break
+        else:
+            geracoes_sem_melhoria += 1
         
-        # Seleção (elitismo + torneio)
-        elite = [ind for ind, _ in avaliados[:populacao // 5]]
+        # Elitismo adaptativo (mais elite quando estagnado)
+        elite_size = populacao // 5
+        if geracoes_sem_melhoria > 50:
+            elite_size = populacao // 3  # Preserva mais indivíduos
         
+        elite = [ind for ind, _ in avaliados[:elite_size]]
         nova_pop = list(elite)
         
         while len(nova_pop) < populacao:
-            # Torneio
-            competidores = random.sample(avaliados[:populacao // 2], 3)
+            # Seleção por torneio
+            k = 5 if geracoes_sem_melhoria > 30 else 3
+            competidores = random.sample(avaliados[:populacao // 2], min(k, len(avaliados) // 2))
             pai1 = max(competidores, key=lambda x: x[1])[0]
-            competidores = random.sample(avaliados[:populacao // 2], 3)
+            competidores = random.sample(avaliados[:populacao // 2], min(k, len(avaliados) // 2))
             pai2 = max(competidores, key=lambda x: x[1])[0]
             
-            filho = crossover(pai1, pai2)
-            filho = mutacao(filho)
+            filho = crossover_uniforme(pai1, pai2)
+            filho = mutacao_adaptativa(filho, 0.15, geracoes_sem_melhoria)
             nova_pop.append(filho)
+        
+        # Reinjetar diversidade se muito estagnado
+        if geracoes_sem_melhoria > 100:
+            print(f"  [Reinjetando diversidade na geração {geracao}]")
+            for _ in range(populacao // 10):
+                nova_pop.append(criar_individuo())
+            geracoes_sem_melhoria = 50  # Reset parcial
         
         pop = nova_pop
     
@@ -199,6 +304,8 @@ def buscar_melhor_universo_genetico(sorteios: List[Sorteio],
             resultados[s.numero] = {"acertos": ac, "data": s.data, "dezenas": s.dezenas}
     
     return melhor_global, resultados
+
+
 
 
 def main():
