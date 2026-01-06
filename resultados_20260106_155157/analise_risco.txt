@@ -1,0 +1,71 @@
+================================================================================
+ANÁLISE DE RISCO - LOTOFÁCIL
+================================================================================
+
+Jogos analisados: 481
+Concursos analisados: 199
+
+================================================================================
+RESUMO FINANCEIRO
+================================================================================
+
+Custo por concurso: R$ 1.683,50
+Custo total (199 concursos): R$ 335.016,50
+Ganho total: R$ 2.096.852,00
+Lucro total: R$ 1.761.835,50
+
+================================================================================
+MÉTRICAS DE RISCO
+================================================================================
+
+📊 ESTATÍSTICAS POR CONCURSO:
+   Lucro médio: R$ 8.853,44
+   Desvio padrão: R$ 141.791,36
+   Coef. de variação: 1601.5%
+
+⚠️  PROBABILIDADE DE PREJUÍZO:
+   Por concurso: 92.5% (184/199)
+
+📉 DRAWDOWN:
+   Máximo: R$ 242.163,00
+   Duração: 198 concursos
+
+🎲 VALUE AT RISK (VaR):
+   VaR 5%: R$ -1.683,50 (95% dos concursos: lucro > este valor)
+   VaR 1%: R$ -1.683,50 (99% dos concursos: lucro > este valor)
+
+📈 SHARPE RATIO:
+   Valor: 0.062
+   Interpretação: Retorno positivo, risco moderado
+
+🏆 EXTREMOS:
+   Melhor concurso: 3579 (R$ 2.003.998,50)
+   Pior concurso: 3577 (R$ -1.683,50)
+
+🔄 SEQUÊNCIAS:
+   Maior sequência de prejuízo: 66 concursos
+   Maior sequência de lucro: 1 concursos
+
+================================================================================
+SIMULAÇÃO DE CENÁRIOS
+================================================================================
+
+Projeção baseada nos dados históricos:
+------------------------------------------------------------
+Período         Custo              Ganho Médio        Lucro Médio       
+------------------------------------------------------------
+1 mês           R$ 43.771,00       R$ 273.960,56      R$ 230.189,56     
+3 meses         R$ 131.313,00      R$ 821.881,69      R$ 690.568,69     
+6 meses         R$ 262.626,00      R$ 1.643.763,38    R$ 1.381.137,38   
+12 meses        R$ 525.252,00      R$ 3.287.526,75    R$ 2.762.274,75   
+------------------------------------------------------------
+
+================================================================================
+CONCLUSÃO
+================================================================================
+
+✅ Resultado POSITIVO no período analisado.
+   Para cada R$ 1 investido, retornou R$ 6.26
+
+⚠️  AVISO: 92% dos concursos resultam em prejuízo.
+   Prepare-se para sequências de até 66 concursos no vermelho.

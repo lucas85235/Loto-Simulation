@@ -1,0 +1,36 @@
+[config] Universe size: 20, Complement size: 5
+[config] Numbers: [1, 2, 3, 4, 7, 8, 10, 11, 12, 13, 14, 15, 17, 19, 20, 21, 22, 23, 24, 25]
+[build] generating all 5-complements...
+[build] total complements: 15504
+[build] building neighbor lists (coverage sets)...
+[build] each complement covers 76 others
+[solve] running greedy cover...
+[greedy] picks=20 uncovered=13984
+[greedy] picks=40 uncovered=12464
+[greedy] picks=60 uncovered=10944
+[greedy] picks=80 uncovered=9472
+[greedy] picks=100 uncovered=8158
+[greedy] picks=120 uncovered=7006
+[greedy] picks=140 uncovered=5993
+[greedy] picks=160 uncovered=5108
+[greedy] picks=180 uncovered=4327
+[greedy] picks=200 uncovered=3625
+[greedy] picks=220 uncovered=3023
+[greedy] picks=240 uncovered=2499
+[greedy] picks=260 uncovered=2047
+[greedy] picks=280 uncovered=1653
+[greedy] picks=300 uncovered=1311
+[greedy] picks=320 uncovered=1020
+[greedy] picks=340 uncovered=775
+[greedy] picks=360 uncovered=575
+[greedy] picks=380 uncovered=409
+[greedy] picks=400 uncovered=276
+[greedy] picks=420 uncovered=172
+[greedy] picks=440 uncovered=89
+[greedy] picks=460 uncovered=32
+[greedy] picks=480 uncovered=1
+[greedy] picks=481 uncovered=0
+[result] games=481
+[write] saved to: resultados_20260106_155157/tickets.txt
+[verify] checking 14-coverage for all draws inside universe...
+[verify] OK=True

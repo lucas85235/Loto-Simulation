@@ -1,0 +1,674 @@
+================================================================================
+VERIFICADOR DE JOGOS LOTOFÁCIL
+================================================================================
+
+Carregando jogos de: resultados_20260106_154456/tickets.txt
+Total de jogos carregados: 481
+
+Buscando os últimos 100 sorteios...
+[cache] Usando 100 sorteios do cache
+Sorteios encontrados: 100
+
+--------------------------------------------------------------------------------
+SORTEIOS ANALISADOS:
+--------------------------------------------------------------------------------
+Concurso 3579 (05/01/2026): 01, 02, 03, 04, 08, 10, 11, 13, 15, 17, 19, 20, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3578 (03/01/2026): 02, 03, 04, 05, 06, 07, 09, 10, 14, 17, 19, 20, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3577 (02/01/2026): 01, 02, 04, 05, 06, 08, 09, 10, 12, 16, 18, 20, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3576 (01/01/2026): 01, 02, 03, 05, 07, 08, 10, 13, 16, 18, 19, 21, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3575 (30/12/2025): 02, 04, 05, 07, 08, 09, 10, 12, 13, 14, 15, 17, 21, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3574 (29/12/2025): 01, 03, 04, 05, 06, 08, 12, 13, 15, 16, 17, 18, 20, 21, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3573 (27/12/2025): 01, 02, 07, 08, 10, 11, 12, 14, 15, 16, 17, 20, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3572 (26/12/2025): 01, 02, 04, 05, 07, 10, 12, 14, 15, 16, 17, 18, 19, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3571 (24/12/2025): 02, 03, 04, 05, 06, 08, 11, 12, 13, 14, 17, 20, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3570 (23/12/2025): 01, 02, 03, 05, 06, 10, 11, 13, 15, 18, 19, 20, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3569 (22/12/2025): 01, 02, 03, 04, 05, 06, 08, 10, 14, 15, 17, 18, 19, 20, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3568 (20/12/2025): 01, 02, 04, 05, 06, 07, 08, 10, 11, 13, 18, 19, 20, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3567 (19/12/2025): 01, 02, 04, 08, 09, 10, 11, 12, 14, 15, 18, 19, 20, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3566 (18/12/2025): 01, 02, 04, 07, 08, 12, 13, 14, 15, 17, 20, 21, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3565 (17/12/2025): 01, 04, 10, 11, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3564 (16/12/2025): 05, 06, 07, 08, 09, 11, 12, 13, 14, 19, 20, 21, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3563 (15/12/2025): 01, 03, 04, 09, 10, 11, 12, 13, 15, 17, 19, 20, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3562 (13/12/2025): 03, 05, 06, 07, 09, 10, 11, 12, 13, 14, 15, 19, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3561 (12/12/2025): 01, 02, 04, 05, 06, 07, 08, 10, 15, 16, 17, 18, 20, 21, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3560 (11/12/2025): 01, 03, 04, 06, 07, 08, 10, 11, 12, 13, 17, 18, 19, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3559 (10/12/2025): 01, 02, 06, 08, 09, 10, 11, 13, 14, 15, 16, 19, 20, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3558 (09/12/2025): 02, 03, 04, 07, 09, 12, 13, 14, 15, 18, 20, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3557 (08/12/2025): 05, 06, 07, 09, 10, 13, 14, 15, 16, 17, 19, 20, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3556 (06/12/2025): 01, 02, 03, 04, 05, 07, 09, 10, 12, 14, 16, 17, 19, 21, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3555 (05/12/2025): 01, 02, 03, 04, 07, 08, 10, 13, 14, 15, 18, 19, 20, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3554 (04/12/2025): 01, 03, 04, 05, 08, 09, 11, 12, 14, 15, 16, 18, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3553 (03/12/2025): 01, 02, 03, 07, 08, 09, 12, 13, 16, 17, 19, 21, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3552 (02/12/2025): 04, 05, 06, 07, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3551 (01/12/2025): 01, 02, 03, 07, 08, 10, 11, 12, 15, 16, 17, 19, 21, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3550 (29/11/2025): 01, 04, 06, 07, 08, 12, 13, 15, 16, 18, 19, 20, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3549 (28/11/2025): 02, 05, 07, 08, 09, 11, 12, 14, 17, 20, 21, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3548 (27/11/2025): 04, 08, 09, 10, 11, 12, 13, 15, 16, 17, 19, 21, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3547 (26/11/2025): 02, 05, 06, 07, 09, 10, 14, 15, 17, 18, 19, 20, 21, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3546 (25/11/2025): 02, 03, 05, 07, 08, 11, 12, 13, 18, 19, 20, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3545 (24/11/2025): 01, 04, 05, 06, 07, 08, 11, 12, 14, 17, 19, 20, 21, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3544 (22/11/2025): 01, 04, 05, 06, 08, 10, 11, 12, 15, 17, 20, 21, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3543 (21/11/2025): 01, 04, 05, 06, 07, 08, 09, 14, 15, 16, 17, 20, 21, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3542 (19/11/2025): 01, 02, 05, 08, 11, 12, 13, 15, 18, 19, 21, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3541 (18/11/2025): 01, 02, 03, 04, 06, 08, 13, 14, 16, 17, 18, 19, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3540 (17/11/2025): 01, 02, 03, 05, 06, 09, 10, 13, 14, 15, 16, 18, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3539 (14/11/2025): 01, 02, 07, 08, 09, 11, 12, 13, 14, 16, 18, 19, 20, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3538 (13/11/2025): 02, 03, 05, 08, 09, 10, 13, 14, 17, 19, 20, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3537 (12/11/2025): 01, 02, 03, 04, 07, 09, 10, 12, 15, 19, 20, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3536 (11/11/2025): 01, 03, 04, 06, 07, 08, 09, 10, 11, 15, 16, 17, 18, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3535 (10/11/2025): 02, 03, 06, 07, 08, 09, 11, 13, 18, 19, 20, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3534 (08/11/2025): 01, 03, 07, 09, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3533 (07/11/2025): 01, 03, 05, 06, 08, 11, 12, 13, 14, 15, 19, 20, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3532 (06/11/2025): 02, 03, 04, 05, 06, 07, 08, 10, 11, 12, 14, 15, 17, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3531 (05/11/2025): 01, 03, 04, 05, 07, 08, 10, 11, 12, 14, 15, 16, 18, 19, 22
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3530 (04/11/2025): 01, 02, 03, 05, 07, 11, 12, 13, 15, 16, 20, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3529 (03/11/2025): 01, 07, 08, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3528 (01/11/2025): 01, 03, 05, 06, 07, 09, 10, 16, 18, 19, 20, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3527 (31/10/2025): 02, 03, 04, 06, 07, 09, 13, 14, 15, 16, 17, 19, 20, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3526 (30/10/2025): 01, 03, 07, 08, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3525 (29/10/2025): 01, 02, 03, 07, 10, 11, 14, 15, 16, 17, 18, 20, 21, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3524 (28/10/2025): 02, 03, 04, 05, 07, 09, 12, 13, 14, 15, 16, 17, 18, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3523 (27/10/2025): 05, 06, 08, 09, 10, 11, 12, 14, 15, 16, 17, 19, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3522 (25/10/2025): 01, 02, 04, 05, 07, 08, 10, 11, 12, 14, 15, 17, 20, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3521 (24/10/2025): 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 19, 20, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3520 (23/10/2025): 01, 03, 07, 08, 10, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3519 (22/10/2025): 04, 05, 06, 07, 08, 13, 14, 16, 17, 18, 20, 21, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3518 (21/10/2025): 02, 05, 06, 07, 11, 12, 13, 14, 16, 17, 19, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3517 (20/10/2025): 01, 02, 03, 07, 08, 11, 12, 14, 17, 18, 19, 20, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3516 (18/10/2025): 02, 03, 06, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3515 (17/10/2025): 01, 02, 03, 04, 05, 06, 07, 09, 14, 15, 16, 17, 21, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3514 (16/10/2025): 01, 03, 04, 05, 06, 08, 10, 12, 13, 16, 17, 20, 21, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3513 (15/10/2025): 03, 04, 05, 06, 07, 11, 13, 14, 15, 16, 18, 20, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3512 (14/10/2025): 01, 02, 03, 04, 05, 06, 09, 12, 13, 14, 15, 17, 19, 20, 22
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3511 (13/10/2025): 02, 03, 05, 06, 07, 08, 09, 12, 13, 14, 15, 19, 20, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3510 (11/10/2025): 01, 02, 03, 04, 05, 06, 07, 08, 13, 14, 15, 17, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3509 (10/10/2025): 01, 03, 04, 07, 09, 10, 12, 14, 15, 16, 19, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3508 (09/10/2025): 01, 03, 04, 05, 06, 08, 11, 13, 14, 16, 17, 20, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3507 (08/10/2025): 02, 03, 04, 07, 09, 10, 11, 12, 17, 18, 19, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3506 (07/10/2025): 03, 04, 05, 06, 08, 11, 12, 13, 16, 17, 18, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3505 (06/10/2025): 01, 02, 03, 04, 06, 07, 08, 09, 11, 14, 16, 20, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3504 (04/10/2025): 01, 02, 04, 06, 07, 09, 10, 12, 15, 16, 17, 21, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3503 (03/10/2025): 01, 04, 06, 07, 08, 10, 11, 12, 14, 15, 16, 18, 21, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3502 (02/10/2025): 04, 05, 06, 07, 08, 09, 14, 15, 16, 17, 18, 19, 20, 21, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3501 (01/10/2025): 01, 03, 07, 09, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3500 (30/09/2025): 01, 02, 04, 05, 06, 07, 09, 10, 11, 12, 14, 16, 18, 19, 21
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3499 (29/09/2025): 01, 05, 07, 09, 10, 11, 12, 13, 14, 17, 18, 19, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3498 (27/09/2025): 01, 02, 03, 04, 05, 07, 08, 09, 15, 16, 17, 19, 21, 22, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3497 (26/09/2025): 01, 02, 03, 04, 06, 10, 11, 12, 13, 14, 15, 18, 19, 21, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3496 (25/09/2025): 01, 04, 05, 08, 09, 11, 13, 14, 15, 16, 17, 18, 20, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3495 (24/09/2025): 02, 03, 06, 08, 09, 11, 12, 15, 16, 18, 19, 20, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3494 (23/09/2025): 01, 04, 09, 10, 11, 12, 14, 15, 16, 17, 19, 21, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3493 (22/09/2025): 02, 03, 04, 05, 06, 10, 11, 13, 15, 16, 19, 20, 21, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3492 (20/09/2025): 02, 03, 04, 08, 09, 10, 13, 17, 18, 19, 20, 21, 22, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3491 (19/09/2025): 01, 02, 04, 08, 09, 10, 12, 13, 15, 17, 21, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3490 (18/09/2025): 02, 03, 04, 07, 08, 11, 13, 14, 15, 16, 18, 19, 21, 23, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3489 (17/09/2025): 01, 02, 05, 08, 09, 11, 14, 16, 17, 20, 21, 22, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3488 (16/09/2025): 01, 03, 04, 05, 06, 08, 09, 11, 12, 13, 14, 15, 17, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3487 (15/09/2025): 02, 04, 05, 07, 10, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3486 (13/09/2025): 02, 06, 07, 08, 09, 10, 11, 12, 16, 17, 18, 19, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3485 (12/09/2025): 02, 03, 04, 05, 06, 09, 10, 11, 12, 13, 15, 18, 20, 22, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3484 (11/09/2025): 01, 03, 04, 05, 07, 08, 09, 11, 13, 14, 15, 17, 23, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3483 (10/09/2025): 02, 04, 07, 08, 09, 12, 13, 14, 15, 17, 18, 20, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3482 (09/09/2025): 01, 02, 04, 05, 09, 10, 13, 14, 15, 17, 19, 20, 22, 24, 25
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3481 (08/09/2025): 01, 02, 03, 04, 05, 07, 09, 10, 13, 14, 19, 21, 22, 23, 24
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+Concurso 3480 (06/09/2025): 03, 05, 06, 08, 09, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23
+  Prêmios: 11ac=R$ 6,00 | 12ac=R$ 12,00 | 13ac=R$ 30,00 | 14ac=R$ 1.800,00 | 15ac=R$ 2.000.000,00
+
+================================================================================
+ANÁLISE DOS JOGOS
+================================================================================
+
+JOGOS COM PRÊMIOS (11+ acertos):
+--------------------------------------------------------------------------------
+
+Top 20 jogos com maior retorno:
+
+Jogo 387: 01, 02, 03, 04, 08, 10, 11, 13, 15, 17, 19, 20, 21, 23, 25
+  Ganho total: R$ 2.000.108,00
+    • Concurso 3579: 15 acertos = R$ 2.000.000,00
+    • Concurso 3565: 11 acertos = R$ 6,00
+    • Concurso 3563: 13 acertos = R$ 30,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3548: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3541: 11 acertos = R$ 6,00
+    • Concurso 3516: 11 acertos = R$ 6,00
+    • Concurso 3497: 11 acertos = R$ 6,00
+    • Concurso 3493: 11 acertos = R$ 6,00
+    • Concurso 3492: 12 acertos = R$ 12,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3490: 11 acertos = R$ 6,00
+
+Jogo 246: 01, 03, 04, 10, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 25
+  Ganho total: R$ 1.926,00
+    • Concurso 3579: 13 acertos = R$ 30,00
+    • Concurso 3565: 12 acertos = R$ 12,00
+    • Concurso 3563: 14 acertos = R$ 1.800,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3548: 11 acertos = R$ 6,00
+    • Concurso 3544: 12 acertos = R$ 12,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3534: 11 acertos = R$ 6,00
+    • Concurso 3533: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3516: 11 acertos = R$ 6,00
+    • Concurso 3497: 11 acertos = R$ 6,00
+    • Concurso 3494: 11 acertos = R$ 6,00
+    • Concurso 3492: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+
+Jogo 046: 01, 02, 04, 07, 08, 12, 13, 14, 15, 17, 19, 20, 21, 22, 23
+  Ganho total: R$ 1.920,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3566: 14 acertos = R$ 1.800,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3550: 11 acertos = R$ 6,00
+    • Concurso 3545: 11 acertos = R$ 6,00
+    • Concurso 3534: 11 acertos = R$ 6,00
+    • Concurso 3526: 12 acertos = R$ 12,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3521: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3512: 11 acertos = R$ 6,00
+    • Concurso 3510: 12 acertos = R$ 12,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3487: 11 acertos = R$ 6,00
+    • Concurso 3483: 11 acertos = R$ 6,00
+
+Jogo 263: 01, 02, 04, 07, 08, 10, 11, 12, 13, 14, 15, 17, 20, 22, 24
+  Ganho total: R$ 1.920,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 12 acertos = R$ 12,00
+    • Concurso 3572: 11 acertos = R$ 6,00
+    • Concurso 3571: 11 acertos = R$ 6,00
+    • Concurso 3568: 11 acertos = R$ 6,00
+    • Concurso 3567: 11 acertos = R$ 6,00
+    • Concurso 3566: 13 acertos = R$ 30,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3529: 12 acertos = R$ 12,00
+    • Concurso 3522: 14 acertos = R$ 1.800,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3483: 12 acertos = R$ 12,00
+    • Concurso 3482: 11 acertos = R$ 6,00
+
+Jogo 402: 01, 02, 04, 07, 10, 12, 13, 14, 15, 17, 20, 21, 22, 23, 24
+  Ganho total: R$ 1.908,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3572: 11 acertos = R$ 6,00
+    • Concurso 3566: 14 acertos = R$ 1.800,00
+    • Concurso 3558: 11 acertos = R$ 6,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3525: 11 acertos = R$ 6,00
+    • Concurso 3522: 12 acertos = R$ 12,00
+    • Concurso 3510: 11 acertos = R$ 6,00
+    • Concurso 3504: 11 acertos = R$ 6,00
+    • Concurso 3491: 12 acertos = R$ 12,00
+    • Concurso 3487: 11 acertos = R$ 6,00
+    • Concurso 3483: 11 acertos = R$ 6,00
+    • Concurso 3482: 11 acertos = R$ 6,00
+    • Concurso 3481: 11 acertos = R$ 6,00
+
+Jogo 043: 01, 02, 04, 08, 10, 11, 13, 15, 17, 19, 20, 21, 23, 24, 25
+  Ganho total: R$ 1.902,00
+    • Concurso 3579: 14 acertos = R$ 1.800,00
+    • Concurso 3567: 11 acertos = R$ 6,00
+    • Concurso 3566: 11 acertos = R$ 6,00
+    • Concurso 3565: 12 acertos = R$ 12,00
+    • Concurso 3563: 12 acertos = R$ 12,00
+    • Concurso 3559: 11 acertos = R$ 6,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3548: 12 acertos = R$ 12,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3542: 11 acertos = R$ 6,00
+    • Concurso 3493: 11 acertos = R$ 6,00
+    • Concurso 3492: 11 acertos = R$ 6,00
+    • Concurso 3491: 12 acertos = R$ 12,00
+    • Concurso 3482: 11 acertos = R$ 6,00
+
+Jogo 153: 01, 02, 04, 07, 08, 12, 13, 14, 15, 17, 20, 21, 23, 24, 25
+  Ganho total: R$ 1.878,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3566: 14 acertos = R$ 1.800,00
+    • Concurso 3558: 11 acertos = R$ 6,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3549: 11 acertos = R$ 6,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3510: 11 acertos = R$ 6,00
+    • Concurso 3491: 12 acertos = R$ 12,00
+    • Concurso 3484: 11 acertos = R$ 6,00
+    • Concurso 3483: 12 acertos = R$ 12,00
+
+Jogo 126: 01, 02, 07, 08, 10, 11, 12, 14, 15, 17, 20, 21, 22, 24, 25
+  Ganho total: R$ 192,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 13 acertos = R$ 30,00
+    • Concurso 3567: 11 acertos = R$ 6,00
+    • Concurso 3566: 12 acertos = R$ 12,00
+    • Concurso 3551: 12 acertos = R$ 12,00
+    • Concurso 3549: 12 acertos = R$ 12,00
+    • Concurso 3545: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3529: 12 acertos = R$ 12,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3525: 11 acertos = R$ 6,00
+    • Concurso 3522: 13 acertos = R$ 30,00
+    • Concurso 3517: 12 acertos = R$ 12,00
+    • Concurso 3503: 11 acertos = R$ 6,00
+    • Concurso 3494: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3489: 11 acertos = R$ 6,00
+    • Concurso 3483: 11 acertos = R$ 6,00
+
+Jogo 197: 01, 02, 03, 08, 10, 11, 12, 13, 15, 19, 20, 21, 22, 23, 25
+  Ganho total: R$ 174,00
+    • Concurso 3579: 13 acertos = R$ 30,00
+    • Concurso 3576: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3570: 11 acertos = R$ 6,00
+    • Concurso 3563: 12 acertos = R$ 12,00
+    • Concurso 3551: 12 acertos = R$ 12,00
+    • Concurso 3546: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3542: 12 acertos = R$ 12,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3533: 12 acertos = R$ 12,00
+    • Concurso 3530: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3521: 11 acertos = R$ 6,00
+    • Concurso 3520: 12 acertos = R$ 12,00
+    • Concurso 3516: 11 acertos = R$ 6,00
+    • Concurso 3497: 11 acertos = R$ 6,00
+    • Concurso 3495: 11 acertos = R$ 6,00
+    • Concurso 3492: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+
+Jogo 253: 01, 02, 04, 07, 08, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24
+  Ganho total: R$ 174,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3572: 12 acertos = R$ 12,00
+    • Concurso 3566: 13 acertos = R$ 30,00
+    • Concurso 3556: 11 acertos = R$ 6,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3529: 11 acertos = R$ 6,00
+    • Concurso 3526: 12 acertos = R$ 12,00
+    • Concurso 3522: 12 acertos = R$ 12,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3510: 11 acertos = R$ 6,00
+    • Concurso 3509: 11 acertos = R$ 6,00
+    • Concurso 3504: 11 acertos = R$ 6,00
+    • Concurso 3498: 11 acertos = R$ 6,00
+    • Concurso 3494: 11 acertos = R$ 6,00
+    • Concurso 3491: 12 acertos = R$ 12,00
+    • Concurso 3487: 11 acertos = R$ 6,00
+    • Concurso 3481: 11 acertos = R$ 6,00
+
+Jogo 217: 01, 02, 03, 07, 08, 11, 12, 13, 14, 15, 19, 20, 22, 23, 24
+  Ganho total: R$ 168,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3566: 12 acertos = R$ 12,00
+    • Concurso 3558: 11 acertos = R$ 6,00
+    • Concurso 3555: 12 acertos = R$ 12,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3550: 11 acertos = R$ 6,00
+    • Concurso 3546: 12 acertos = R$ 12,00
+    • Concurso 3542: 11 acertos = R$ 6,00
+    • Concurso 3539: 12 acertos = R$ 12,00
+    • Concurso 3534: 11 acertos = R$ 6,00
+    • Concurso 3533: 12 acertos = R$ 12,00
+    • Concurso 3530: 12 acertos = R$ 12,00
+    • Concurso 3529: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3521: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3517: 12 acertos = R$ 12,00
+    • Concurso 3511: 12 acertos = R$ 12,00
+    • Concurso 3501: 11 acertos = R$ 6,00
+
+Jogo 218: 01, 02, 03, 04, 07, 10, 12, 13, 15, 17, 19, 20, 21, 22, 24
+  Ganho total: R$ 168,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3572: 11 acertos = R$ 6,00
+    • Concurso 3570: 11 acertos = R$ 6,00
+    • Concurso 3566: 12 acertos = R$ 12,00
+    • Concurso 3563: 11 acertos = R$ 6,00
+    • Concurso 3555: 11 acertos = R$ 6,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3537: 13 acertos = R$ 30,00
+    • Concurso 3534: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3512: 11 acertos = R$ 6,00
+    • Concurso 3509: 11 acertos = R$ 6,00
+    • Concurso 3507: 11 acertos = R$ 6,00
+    • Concurso 3501: 11 acertos = R$ 6,00
+    • Concurso 3498: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3487: 11 acertos = R$ 6,00
+    • Concurso 3482: 11 acertos = R$ 6,00
+    • Concurso 3481: 11 acertos = R$ 6,00
+
+Jogo 048: 01, 02, 04, 07, 08, 10, 11, 12, 15, 17, 19, 20, 21, 22, 24
+  Ganho total: R$ 162,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3572: 11 acertos = R$ 6,00
+    • Concurso 3568: 11 acertos = R$ 6,00
+    • Concurso 3567: 11 acertos = R$ 6,00
+    • Concurso 3566: 12 acertos = R$ 12,00
+    • Concurso 3551: 12 acertos = R$ 12,00
+    • Concurso 3545: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3537: 12 acertos = R$ 12,00
+    • Concurso 3529: 12 acertos = R$ 12,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3522: 13 acertos = R$ 30,00
+    • Concurso 3517: 12 acertos = R$ 12,00
+    • Concurso 3507: 11 acertos = R$ 6,00
+    • Concurso 3498: 11 acertos = R$ 6,00
+    • Concurso 3494: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+
+Jogo 280: 01, 04, 08, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 24, 25
+  Ganho total: R$ 162,00
+    • Concurso 3579: 12 acertos = R$ 12,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3567: 11 acertos = R$ 6,00
+    • Concurso 3566: 11 acertos = R$ 6,00
+    • Concurso 3565: 12 acertos = R$ 12,00
+    • Concurso 3563: 12 acertos = R$ 12,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3548: 12 acertos = R$ 12,00
+    • Concurso 3545: 11 acertos = R$ 6,00
+    • Concurso 3544: 13 acertos = R$ 30,00
+    • Concurso 3542: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3529: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3494: 12 acertos = R$ 12,00
+    • Concurso 3491: 12 acertos = R$ 12,00
+
+Jogo 301: 01, 02, 03, 07, 08, 11, 12, 13, 14, 15, 17, 20, 21, 22, 23
+  Ganho total: R$ 162,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3573: 12 acertos = R$ 12,00
+    • Concurso 3566: 13 acertos = R$ 30,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3551: 11 acertos = R$ 6,00
+    • Concurso 3549: 11 acertos = R$ 6,00
+    • Concurso 3534: 12 acertos = R$ 12,00
+    • Concurso 3533: 11 acertos = R$ 6,00
+    • Concurso 3530: 11 acertos = R$ 6,00
+    • Concurso 3526: 12 acertos = R$ 12,00
+    • Concurso 3525: 11 acertos = R$ 6,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3521: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3517: 12 acertos = R$ 12,00
+    • Concurso 3516: 11 acertos = R$ 6,00
+    • Concurso 3510: 12 acertos = R$ 12,00
+    • Concurso 3480: 11 acertos = R$ 6,00
+
+Jogo 454: 01, 02, 03, 04, 08, 10, 11, 12, 13, 15, 17, 21, 22, 23, 25
+  Ganho total: R$ 162,00
+    • Concurso 3579: 13 acertos = R$ 30,00
+    • Concurso 3575: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3566: 11 acertos = R$ 6,00
+    • Concurso 3563: 12 acertos = R$ 12,00
+    • Concurso 3551: 12 acertos = R$ 12,00
+    • Concurso 3548: 11 acertos = R$ 6,00
+    • Concurso 3544: 12 acertos = R$ 12,00
+    • Concurso 3542: 11 acertos = R$ 6,00
+    • Concurso 3532: 11 acertos = R$ 6,00
+    • Concurso 3510: 11 acertos = R$ 6,00
+    • Concurso 3504: 11 acertos = R$ 6,00
+    • Concurso 3497: 11 acertos = R$ 6,00
+    • Concurso 3492: 11 acertos = R$ 6,00
+    • Concurso 3491: 13 acertos = R$ 30,00
+    • Concurso 3488: 11 acertos = R$ 6,00
+
+Jogo 055: 01, 02, 03, 07, 08, 10, 11, 12, 15, 17, 19, 20, 22, 23, 25
+  Ganho total: R$ 156,00
+    • Concurso 3579: 12 acertos = R$ 12,00
+    • Concurso 3573: 13 acertos = R$ 30,00
+    • Concurso 3563: 11 acertos = R$ 6,00
+    • Concurso 3551: 13 acertos = R$ 30,00
+    • Concurso 3546: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3533: 11 acertos = R$ 6,00
+    • Concurso 3532: 11 acertos = R$ 6,00
+    • Concurso 3530: 11 acertos = R$ 6,00
+    • Concurso 3529: 11 acertos = R$ 6,00
+    • Concurso 3526: 12 acertos = R$ 12,00
+    • Concurso 3522: 11 acertos = R$ 6,00
+    • Concurso 3520: 11 acertos = R$ 6,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3495: 11 acertos = R$ 6,00
+
+Jogo 086: 01, 02, 03, 04, 07, 10, 12, 13, 14, 15, 17, 20, 22, 23, 24
+  Ganho total: R$ 156,00
+    • Concurso 3578: 11 acertos = R$ 6,00
+    • Concurso 3573: 11 acertos = R$ 6,00
+    • Concurso 3572: 11 acertos = R$ 6,00
+    • Concurso 3566: 13 acertos = R$ 30,00
+    • Concurso 3558: 12 acertos = R$ 12,00
+    • Concurso 3555: 12 acertos = R$ 12,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3530: 11 acertos = R$ 6,00
+    • Concurso 3527: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3525: 11 acertos = R$ 6,00
+    • Concurso 3524: 11 acertos = R$ 6,00
+    • Concurso 3522: 12 acertos = R$ 12,00
+    • Concurso 3512: 11 acertos = R$ 6,00
+    • Concurso 3510: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3483: 11 acertos = R$ 6,00
+    • Concurso 3482: 11 acertos = R$ 6,00
+    • Concurso 3481: 11 acertos = R$ 6,00
+
+Jogo 115: 01, 03, 07, 08, 10, 11, 12, 14, 15, 19, 20, 21, 22, 23, 25
+  Ganho total: R$ 156,00
+    • Concurso 3579: 11 acertos = R$ 6,00
+    • Concurso 3573: 12 acertos = R$ 12,00
+    • Concurso 3563: 11 acertos = R$ 6,00
+    • Concurso 3562: 11 acertos = R$ 6,00
+    • Concurso 3551: 12 acertos = R$ 12,00
+    • Concurso 3545: 11 acertos = R$ 6,00
+    • Concurso 3544: 11 acertos = R$ 6,00
+    • Concurso 3537: 11 acertos = R$ 6,00
+    • Concurso 3534: 11 acertos = R$ 6,00
+    • Concurso 3533: 12 acertos = R$ 12,00
+    • Concurso 3531: 11 acertos = R$ 6,00
+    • Concurso 3529: 11 acertos = R$ 6,00
+    • Concurso 3526: 13 acertos = R$ 30,00
+    • Concurso 3521: 12 acertos = R$ 12,00
+    • Concurso 3520: 12 acertos = R$ 12,00
+    • Concurso 3517: 11 acertos = R$ 6,00
+    • Concurso 3509: 11 acertos = R$ 6,00
+
+Jogo 146: 01, 02, 03, 04, 07, 08, 10, 13, 14, 15, 17, 19, 21, 23, 24
+  Ganho total: R$ 156,00
+    • Concurso 3579: 12 acertos = R$ 12,00
+    • Concurso 3569: 11 acertos = R$ 6,00
+    • Concurso 3566: 12 acertos = R$ 12,00
+    • Concurso 3560: 11 acertos = R$ 6,00
+    • Concurso 3556: 11 acertos = R$ 6,00
+    • Concurso 3555: 13 acertos = R$ 30,00
+    • Concurso 3553: 11 acertos = R$ 6,00
+    • Concurso 3541: 11 acertos = R$ 6,00
+    • Concurso 3527: 11 acertos = R$ 6,00
+    • Concurso 3526: 11 acertos = R$ 6,00
+    • Concurso 3525: 11 acertos = R$ 6,00
+    • Concurso 3515: 11 acertos = R$ 6,00
+    • Concurso 3510: 12 acertos = R$ 12,00
+    • Concurso 3498: 11 acertos = R$ 6,00
+    • Concurso 3491: 11 acertos = R$ 6,00
+    • Concurso 3490: 11 acertos = R$ 6,00
+    • Concurso 3484: 11 acertos = R$ 6,00
+    • Concurso 3481: 12 acertos = R$ 12,00
+
+================================================================================
+RESUMO GERAL
+================================================================================
+
+Total de jogos analisados: 481
+Total de sorteios verificados: 100
+Período abrangido: 5 mês(es)
+Jogos com 11+ acertos: 481
+
+Distribuição de acertos (todos os jogos x todos os sorteios):
+--------------------------------------------------
+Acertos    Ocorrências     Ganho Total         
+--------------------------------------------------
+11         5748            R$ 34.488,00        
+12         1305            R$ 15.660,00        
+13         132             R$ 3.960,00         
+14         6               R$ 10.800,00        
+15         1               R$ 2.000.000,00     
+--------------------------------------------------
+
+TOTAL DE GANHOS: R$ 2.064.908,00
+Média por jogo premiado: R$ 4.292,95
+Média por jogo (todos): R$ 4.292,95
+
+================================================================================
+ANÁLISE FINANCEIRA
+================================================================================
+
+Custo por jogo (15 números): R$ 3,50
+Quantidade de jogos: 481
+Custo por concurso: R$ 1.683,50
+Concursos simulados: 100
+Custo total (100 concursos): R$ 168.350,00
+--------------------------------------------------
+Ganho total: R$ 2.064.908,00
+LUCRO/PREJUÍZO: R$ 1.896.558,00
+Retorno sobre investimento: 1226.56%
+
+--- MÉDIAS POR CONCURSO ---
+Ganho médio por concurso: R$ 20.649,08
+Custo por concurso: R$ 1.683,50
+Lucro médio por concurso: R$ 18.965,58
